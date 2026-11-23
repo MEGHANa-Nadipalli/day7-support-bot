@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer Support Bot – Day 7 Challenge
 
 A small Flask app for customer support. A customer sends a message, an AI model
@@ -44,3 +45,6 @@ runs them on every push and pull request.
 | Dockerfile | Builds the app as a Docker image |
 | .github/workflows/ci.yml | Runs the tests on GitHub |
 | logs/ | Where the app writes its log file |
+=======
+# day7-support-bot
+>>>>>>> 17cba66552e13f70f4e32f1a1a6073a7e3170ab8
