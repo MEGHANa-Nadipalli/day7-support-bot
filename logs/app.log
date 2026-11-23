@@ -7,3 +7,15 @@ INFO:werkzeug: * Debugger PIN: 589-831-128
 INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 21:34:48] "[33mGET / HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 21:34:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 21:34:54] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 589-831-128
+INFO:root:request_id=52ec4ab4-0f4a-468b-8ed6-e44da34e0701 model=fake-llm latency_ms=0.12 input_tokens=66 output_tokens=22 cost_inr=0.0440
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 23:23:01] "POST /chat HTTP/1.1" 200 -
+INFO:root:request_id=9f4bfb8f-e7c6-4e32-b9dc-b70bc98297cf model=fake-llm latency_ms=0.19 input_tokens=80 output_tokens=32 cost_inr=0.0560
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 23:23:09] "POST /chat HTTP/1.1" 200 -
+INFO:root:request_id=261ce5dd-4524-46e3-9d24-2c8708b2fb9c model=fake-llm latency_ms=0.03 input_tokens=64 output_tokens=22 cost_inr=0.0430
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2026 23:23:32] "POST /chat HTTP/1.1" 200 -
